@@ -1,0 +1,108 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ body {
+    font-family: 'Lobster', cursive;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+header h1 {
+text-align: center;
+background-color: #383737;
+color:white;
+height: 60px;
+padding-top: 20px;
+}
+
+#mainDiv {
+margin-top: 20px;
+margin-left: 100px;
+}
+
+#form1 {
+    width: fit-content;
+      margin-right: 100px;
+    /* margin-top: 30px; */
+    }
+
+#fieldS {
+    padding-top: 20px;
+      text-align: center;
+      background-color: #3a303099;  
+      height: 250px;
+      width: 320px;
+      display: inline-block;
+}
+#formDiv {
+    width: fit-content;
+    float: left;
+}
+#perfumName {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+
+
+}
+#quantity {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+
+
+
+}
+#perfumName1 {
+    color: white;
+    
+}
+#quantity1 {
+    color: white;
+}
+
+#submitBotton {
+    background-color: #383737;
+    height: 40px;
+    width: 300px;
+    color: white;
+ 
+}
+
+#tableDiv {
+    /* float: left; */
+    min-height: 270px;
+        width: fit-content;
+    background-color: #3a303099;
+    display: inline-block;
+}
+
+#tableperfume {
+    width: 300px;
+    /* height: 200px; */
+    /* margin-left: 100px; */
+}
+
+#list {
+    color: white;
+    text-align: center;
+}
+
+#tableperfume {
+     border: 2px solid black;
+    color: white;
+}
+
+#tableperfume th{
+    background-color: #383737;
+    border: 2px solid black;
+}
+
+#tableperfume td{
+    border: 2px solid black;
+    
+}
